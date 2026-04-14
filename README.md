@@ -14,7 +14,7 @@ AI-powered developer tools to **debug, understand, and improve code instantly**.
   </a>
 </p>
 
-<br>
+
 <br>
 
 ## 🎬 Demo
