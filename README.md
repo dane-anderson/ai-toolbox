@@ -69,8 +69,45 @@ This project demonstrates the ability to take an idea from development to a full
 ---
 ## ⚙️ Run Locally
 
-```bash
-git clone https://github.com/dane-anderson/ai-toolbox.git
-cd ai-toolbox
-pip install -r requirements.txt
-streamlit run app.py
+To run this project locally, follow these steps:
+
+### 1. Set your OpenAI API key (required)
+
+export OPENAI_API_KEY=your_key_here
+
+### 2. Clone and start the app
+
+git clone https://github.com/dane-anderson/ai-toolbox.git  
+cd ai-toolbox  
+pip install -r requirements.txt  
+streamlit run app.py  
+
+---
+
+## 🚀 Future Development
+
+This project is designed to evolve beyond a simple demo into a powerful developer tool. Potential next steps include:
+
+### 🧰 Daily-Use Dev Tool
+- Save and reuse prompts, code snippets, and debugging sessions  
+- Build a personal AI-powered development workspace  
+
+### 🌐 Browser Extension
+- Integrate directly into sites like GitHub  
+- Highlight code and instantly explain or debug it  
+
+### 👥 Team Tool
+- Add user accounts and shared workspaces  
+- Enable teams to collaborate with AI-powered tools  
+
+### 💰 SaaS Product
+- Introduce subscriptions and usage tiers  
+- Turn the app into a scalable, production-ready service  
+
+---
+
+## 💡 Vision
+
+This project represents more than a single app — it is the foundation for a full AI-powered developer productivity platform.
+
+The goal is to transform everyday development workflows using AI, making debugging, learning, and prompt engineering faster and more intuitive.
