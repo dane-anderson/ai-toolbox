@@ -14,7 +14,10 @@ AI-powered developer tools to **debug, understand, and improve code instantly**.
   </a>
 </p>
 ---
-## 🎬 Demo   ← 🔥 THIS is the “new demo”
+<br>
+<br>
+
+## 🎬 Demo
 
 ![AI Toolbox Demo](toolboxdemo.gif)
 
