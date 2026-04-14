@@ -1,38 +1,76 @@
-# 🧰 AI Toolbox
+# 🚀 AI Toolbox
 
-AI Toolbox is a growing collection of practical AI tools built in Python with Streamlit and OpenAI.
+🔗 **Live App:** https://ai-toolbox-4uep.onrender.com  
 
-## First Tool: AI Debug Helper
 
-The first tool in this toolbox is an AI-powered Debug Helper.
+---
 
-It allows users to paste:
-- error messages
-- broken code
-- debugging questions
+## 🧠 Overview
 
-And get back:
-- what the issue means
-- why it happened
-- how to fix it
+AI Toolbox is a Streamlit-based web app that leverages the OpenAI API to help developers:
 
-## Features
+- Debug code faster  
+- Understand unfamiliar code  
+- Improve prompts for better AI outputs  
 
-- Built with Streamlit for a simple UI
-- Uses OpenAI to generate beginner-friendly debugging explanations
-- Secure API key handling with `secrets.toml`
-- Designed to expand into a full toolbox with more tools later
+This project demonstrates full-stack AI integration, from local development to cloud deployment on Render.
 
-## Tech Stack
+---
 
-- Python
-- Streamlit
-- OpenAI API
+## ✨ Features
 
-## How to Run Locally
+### 🐞 Debug Helper
+- Paste broken code and error messages  
+- Get clear explanations and suggested fixes  
 
-1. Clone the repo
-2. Install dependencies:
+### 💻 Code Explainer
+- Breaks down code step-by-step  
+- Helps understand logic and structure  
+
+### ✨ Prompt Improver
+- Transforms rough prompts into high-quality AI prompts  
+- Optimized for better results with LLMs  
+
+---
+
+## 🛠 Tech Stack
+
+- **Python**
+- **Streamlit**
+- **OpenAI API**
+- **Render (Cloud Deployment)**
+- **Git + GitHub**
+
+---
+
+## 🚀 Deployment
+
+This app is fully deployed on Render and accessible here:
+
+👉 https://ai-toolbox-4uep.onrender.com
+
+Key deployment features:
+- Environment variables for API security  
+- Automated builds via GitHub integration  
+- Live cloud hosting  
+
+---
+## 🌐 Deployment & Integration
+
+This application was fully developed and deployed end-to-end, including:
+
+- Local development using Streamlit  
+- Integration with the OpenAI API for real-time AI responses  
+- Deployment to Render for live cloud hosting  
+- Secure management of environment variables for API keys  
+- Debugging and resolving real-world deployment issues (dependency management, runtime environments)
+
+This project demonstrates the ability to take an idea from development to a fully live, production-ready application.
+---
+## ⚙️ Run Locally
 
 ```bash
-python3 -m pip install -r requirements.txt
+git clone https://github.com/dane-anderson/ai-toolbox.git
+cd ai-toolbox
+pip install -r requirements.txt
+streamlit run app.py
