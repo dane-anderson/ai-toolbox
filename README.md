@@ -6,7 +6,7 @@ AI tools that help you **debug faster, understand code, and build better**.
 
 ## 🚀 Live App
 
-<p align="center"><b>Try it live 👇</b></p>
+<p align="center"><b>Try it live </b></p>
 
 <p align="center">
   <a href="https://ai-toolbox-4uep.onrender.com">
