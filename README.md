@@ -13,15 +13,14 @@ AI-powered developer tools to **debug, understand, and improve code instantly**.
     <img src="https://img.shields.io/badge/🚀_LAUNCH_TOOLBOX-1f6feb?style=for-the-badge&logo=streamlit&logoColor=white" />
   </a>
 </p>
----
+
 <br>
 <br>
 
 ## 🎬 Demo
 
 ![AI Toolbox Demo](toolboxdemo.gif)
-
-
+---
 ## 🧠 What It Does
 
 AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
