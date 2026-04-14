@@ -1,32 +1,47 @@
 import streamlit as st
+import os
 from openai import OpenAI
 
-# This will connect to OpenAI later
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+from tools import debug_helper, code_explainer, prompt_improver
 
-st.title("🧰 AI Debug Helper")
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
 
-user_input = st.text_area("Paste your error or code:")
+st.sidebar.title("🧰 AI Toolbox")
+st.sidebar.markdown("A growing collection of practical AI tools")
+st.sidebar.divider()
 
-if st.button("Analyze"):
-    if user_input:
-        with st.spinner("Analyzing your code..."):
-            response = client.responses.create(
-                model="gpt-4.1-mini",
-                input=f"""
-You are a helpful debugging assistant.
+st.markdown("""
+# 🚀 AI Dev Assistant
 
-A user pasted the following error or code:
-{user_input}
+### Debug • Understand • Improve
 
-Explain:
-1. What the issue likely means
-2. Why it happened
-3. How to fix it
+A suite of AI-powered tools for developers.
+""")
 
-Be clear and beginner-friendly.
-"""
-            )
+st.divider()
 
-        st.subheader("🧠 Explanation")
-        st.write(response.output_text)
+st.markdown("""
+**What you can do:**
+
+- 🐞 Fix bugs instantly  
+- 💻 Break down code step-by-step  
+- ✨ Turn rough ideas into powerful prompts  
+""")
+
+st.markdown("##")
+
+tab1, tab2, tab3 = st.tabs([
+    "🐞 Debug",
+    "💻 Code",
+    "✨ Prompt"
+])
+
+with tab1:
+    debug_helper.run(client)
+
+with tab2:
+    code_explainer.run(client)
+
+with tab3:
+    prompt_improver.run(client)
