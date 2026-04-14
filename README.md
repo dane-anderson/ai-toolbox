@@ -100,7 +100,7 @@ This application was fully developed and deployed end-to-end, including:
 
 This project demonstrates the ability to take an idea from development to a fully live, production-ready application.
 ---
-## ⚙️ Run Locally
+## 🛠️ Setup & Usage
 
 To run this project locally, follow these steps:
 
