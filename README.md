@@ -1,6 +1,6 @@
 # 🧰 AI Toolbox
 
-AI-powered developer tools to **debug, understand, and improve code instantly**.
+AI tools that help you **debug faster, understand code, and build better**.
 
 ---
 
