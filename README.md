@@ -1,8 +1,42 @@
-# 🚀 AI Toolbox
+# 🧰 AI Toolbox
 
-🔗 **Live App:** https://ai-toolbox-4uep.onrender.com  
+AI-powered developer tools to **debug, understand, and improve code instantly**.
 
+---
 
+## 🚀 Live App
+
+<p align="center">
+  <a href="https://ai-toolbox-4uep.onrender.com">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_TOOLBOX-1f6feb?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/toolboxdemo.gif" width="800"/>
+</p>
+
+---
+
+## 🧠 What It Does
+
+AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
+
+- 🐞 Debug code instantly  
+- 🧠 Break down complex logic step-by-step  
+- ✨ Turn rough ideas into strong AI prompts  
+
+---
+
+## ⚙️ Built With
+
+- Python + Streamlit  
+- OpenAI API  
+- Render (deployment)  
 ---
 
 ## 🧠 Overview
