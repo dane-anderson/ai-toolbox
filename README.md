@@ -1,24 +1,16 @@
 # 🧰 AI Toolbox
 
-AI tools that help you **debug faster, understand code, and build better**.
+AI-powered developer tools to debug code, understand logic, and accelerate your workflow.
 
 ---
-
 ## 🚀 Live App
-
-<p align="center"><b>Try it live </b></p>
-
-<p align="center">
-  <a href="https://ai-toolbox-4uep.onrender.com">
-    <img src="https://img.shields.io/badge/🚀_LAUNCH_TOOLBOX-1f6feb?style=for-the-badge&logo=streamlit&logoColor=white" />
-  </a>
+👉 https://ai-toolbox-4uep.onrender.com
 </p>
 
 
 <br>
 
 ## 🎬 Demo
-
 ![AI Toolbox Demo](toolboxdemo.gif)
 ---
  ## 🧠 What It Does
@@ -33,22 +25,11 @@ AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
 - 💻 Save and reuse useful developer commands and snippets
 ---
 
-## ⚙️ Built With
-
-- Python + Streamlit  
-- OpenAI API  
-- Render (deployment)  
----
 ## 🧠 Overview
 
 AI Toolbox is a Streamlit-based web app that leverages the OpenAI API to help developers:
-- Debug code faster  
-- Understand unfamiliar code  
-- Improve prompts for better AI outputs  
-- Generate smart test cases automatically  
-- Reuse common developer commands and code snippets  
 
-This project demonstrates full-stack AI integration, from local development to cloud deployment on Render.
+This project demonstrates real-world AI integration, combining LLM-powered reasoning with practical developer workflows.
 
 ---
 
@@ -108,7 +89,7 @@ This application was fully developed and deployed end-to-end, including:
 - Secure management of environment variables for API keys  
 - Debugging and resolving real-world deployment issues (dependency management, runtime environments)
 
-This project demonstrates the ability to take an idea from development to a fully live, production-ready application.
+This project demonstrates the ability to take an idea from concept to a fully deployed, production-ready AI application.
 ---
 ## 🛠️ Setup & Usage
 
