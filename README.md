@@ -21,14 +21,14 @@ AI tools that help you **debug faster, understand code, and build better**.
 
 ![AI Toolbox Demo](toolboxdemo.gif)
 ---
-## 🧠 What It Does
+ ## 🧠 What It Does
 
 AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
 
 - 🐞 Debug code instantly  
-- 🧠 Break down complex logic step-by-step  
+- 💻 Break down complex logic step-by-step  
 - ✨ Turn rough ideas into strong AI prompts  
-
+- 🧪 Generate smart test cases (including edge and failure cases)
 ---
 
 ## ⚙️ Built With
@@ -37,7 +37,6 @@ AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
 - OpenAI API  
 - Render (deployment)  
 ---
-
 ## 🧠 Overview
 
 AI Toolbox is a Streamlit-based web app that leverages the OpenAI API to help developers:
@@ -45,6 +44,7 @@ AI Toolbox is a Streamlit-based web app that leverages the OpenAI API to help de
 - Debug code faster  
 - Understand unfamiliar code  
 - Improve prompts for better AI outputs  
+- Generate smart test cases automatically  
 
 This project demonstrates full-stack AI integration, from local development to cloud deployment on Render.
 
