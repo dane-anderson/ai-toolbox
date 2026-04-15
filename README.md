@@ -1,5 +1,7 @@
 # 🧰 AI Toolbox
 
+> Built with Python, Streamlit, and OpenAI — deployed live on Render.
+
 AI-powered developer tools to debug code, understand logic, and accelerate your workflow.
 
 ---
@@ -29,6 +31,11 @@ AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
 
 AI Toolbox is a Streamlit-based web app that leverages the OpenAI API to help developers:
 
+- Debug code faster  
+- Understand unfamiliar code  
+- Improve prompts for better AI outputs  
+- Generate smart test cases automatically  
+- Reuse common developer commands and snippets  
 This project demonstrates real-world AI integration, combining LLM-powered reasoning with practical developer workflows.
 
 ---
@@ -97,6 +104,7 @@ To run this project locally, follow these steps:
 
 ### 1. Set your OpenAI API key (required)
 
+```bash
 export OPENAI_API_KEY=your_key_here
 
 ### 2. Clone and start the app
