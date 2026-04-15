@@ -1,6 +1,6 @@
 # 🧰 AI Toolbox
 
-> Built with Python, Streamlit, and OpenAI — deployed live on Render.
+ Built with Python, Streamlit, and OpenAI — deployed live on Render.
 
 AI-powered developer tools to debug code, understand logic, and accelerate your workflow.
 
