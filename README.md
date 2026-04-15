@@ -25,10 +25,12 @@ AI tools that help you **debug faster, understand code, and build better**.
 
 AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
 
+
 - 🐞 Debug code instantly  
 - 💻 Break down complex logic step-by-step  
 - ✨ Turn rough ideas into strong AI prompts  
-- 🧪 Generate smart test cases (including edge and failure cases)
+- 🧪 Generate smart test cases (including edge and failure cases)  
+- 💻 Save and reuse useful developer commands and snippets
 ---
 
 ## ⚙️ Built With
@@ -40,11 +42,11 @@ AI Toolbox is a Streamlit app powered by OpenAI that helps developers:
 ## 🧠 Overview
 
 AI Toolbox is a Streamlit-based web app that leverages the OpenAI API to help developers:
-
 - Debug code faster  
 - Understand unfamiliar code  
 - Improve prompts for better AI outputs  
 - Generate smart test cases automatically  
+- Reuse common developer commands and code snippets  
 
 This project demonstrates full-stack AI integration, from local development to cloud deployment on Render.
 
@@ -52,17 +54,25 @@ This project demonstrates full-stack AI integration, from local development to c
 
 ## ✨ Features
 
-### 🐞 Debug Helper
-- Paste broken code and error messages  
-- Get clear explanations and suggested fixes  
+ ### 🐞 Debug Helper
+- Paste broken code and error messages
+- Get clear explanations and suggested fixes
 
 ### 💻 Code Explainer
-- Breaks down code step-by-step  
-- Helps understand logic and structure  
+- Break down code step-by-step
+- Help understand logic and structure
 
 ### ✨ Prompt Improver
-- Transforms rough prompts into high-quality AI prompts  
-- Optimized for better results with LLMs  
+- Transform rough prompts into higher-quality AI prompts
+- Improve clarity and output quality
+
+### 🧪 Test Case Generator
+- Generate normal, edge, and failure test cases
+- Help catch bugs before they happen
+
+### 💻 Dev Cheat Sheet
+- Store and reference useful terminal commands
+- Reuse common Streamlit, Git, and debugging patterns
 
 ---
 
@@ -121,9 +131,9 @@ streamlit run app.py
 
 This project is designed to evolve beyond a simple demo into a powerful developer tool. Potential next steps include:
 
-### 🧰 Daily-Use Dev Tool
-- Save and reuse prompts, code snippets, and debugging sessions  
-- Build a personal AI-powered development workspace  
+### 📚 Interactive Dev Vault
+- Save custom commands and snippets permanently
+- Build a reusable personal developer knowledge base
 
 ### 🌐 Browser Extension
 - Integrate directly into sites like GitHub  
