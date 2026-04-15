@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from openai import OpenAI
 
-from tools import debug_helper, code_explainer, prompt_improver
+from tools import debug_helper, code_explainer, prompt_improver, test_case_generator
 
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
@@ -30,12 +30,13 @@ st.markdown("""
 """)
 
 st.markdown("##")
-
-tab1, tab2, tab3 = st.tabs([
-    "🐞 Debug",
-    "💻 Code",
-    "✨ Prompt"
+tab1, tab2, tab3, tab4 = st.tabs([
+    "🐞 Debug Assistant",
+    "💻 Code Explainer",
+    "✨ Prompt Improver",
+    "🧪 Test Case Generator"
 ])
+
 
 with tab1:
     debug_helper.run(client)
@@ -45,3 +46,6 @@ with tab2:
 
 with tab3:
     prompt_improver.run(client)
+
+with tab4:
+    test_case_generator.run(client)
