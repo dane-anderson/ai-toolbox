@@ -109,7 +109,17 @@ This project demonstrates the ability to take an idea from concept to a fully de
 
 To run this project locally, follow these steps:
 
-### 1. Set your OpenAI API key (required)
-
 ```bash
+export OPENAI_API_KEY=your_key_here
+git clone https://github.com/dane-anderson/ai-toolbox.git
+cd ai-toolbox
+pip install -r requirements.txt
+streamlit run app.py
+---
+
+## 💡 Vision
+
+This project represents the foundation of an AI-powered developer productivity platform.
+
+The goal is to transform everyday development workflows using AI — making debugging, learning, and prompt engineering faster and more intuitive.
 export OPENAI_API_KEY=your_key_here
