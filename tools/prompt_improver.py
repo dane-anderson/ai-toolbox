@@ -81,12 +81,79 @@ Keep it concise and practical.
         if not prompt_input:
             st.warning("Please enter something first.")
         else:
-            st.subheader("🏗 Production-Ready Plan")
-            st.write("Coming next: system design + architecture output.")
+            with st.spinner("Building production-ready plan..."):
+                response = client.responses.create(
+                    model="gpt-4.1-mini",
+                    input=f"""
+You are a senior software architect and product engineer.
+
+A user wants to build this:
+{prompt_input}
+
+Turn it into a production-ready implementation plan.
+
+Output in this exact structure:
+
+1. Goal
+- Briefly explain what is being built
+
+2. Core Features
+- Bullet list of must-have features
+
+3. Tech Stack
+- Recommend a practical stack
+- Prefer Python / Streamlit / FastAPI / React only when appropriate
+
+4. Architecture
+- Explain the main parts of the system
+- Mention frontend, backend, database, APIs, and background jobs if relevant
+
+5. Edge Cases
+- List important things that could break or be forgotten
+
+6. Deployment
+- Explain how this could be deployed
+- Mention Render if appropriate
+
+7. Build Steps
+- Give a clear step-by-step build order
+
+Keep it practical, concise, and builder-focused.
+"""
+                )
+
+                result = response.output_text
+
+                st.subheader("🏗 Production-Ready Plan")
+                st.markdown(result)
 
     if starter_code:
         if not prompt_input:
             st.warning("Please enter something first.")
         else:
-            st.subheader("💻 Starter Code")
-            st.code("# Starter code will appear here", language="python")
+            with st.spinner("Generating starter code..."):
+                response = client.responses.create(
+                    model="gpt-4.1-mini",
+                    input=f"""
+You are a senior software engineer.
+
+A user wants starter code for this idea:
+{prompt_input}
+
+Generate starter code that is practical and clean.
+
+Rules:
+- Default to Python unless another language is clearly better
+- If this sounds like a UI tool or dashboard, prefer Streamlit
+- If this sounds like an API, prefer FastAPI
+- Keep the code minimal but usable
+- Include comments where helpful
+- Do not overbuild
+- Return code only, with no explanation outside the code
+"""
+                )
+
+                result = response.output_text
+
+                st.subheader("💻 Starter Code")
+                st.code(result, language="python")
