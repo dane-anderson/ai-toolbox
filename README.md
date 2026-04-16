@@ -43,28 +43,50 @@ This project demonstrates real-world AI integration, combining LLM-powered reaso
 
 ---
 
- ## ✨ Features
+## ✨ Features
 
-### 🐞 Debug Assistant
-- Paste broken code or errors
-- Get clear explanations and fixes instantly
+### 🐞 Debug Helper
+- Paste broken code and error messages  
+- Get clear explanations and suggested fixes  
 
-### 🧠 Code Explainer
-- Break down code step-by-step
-- Understand logic, structure, and flow
+### 💻 Code Explainer
+- Break down code step-by-step  
+- Understand logic, structure, and flow  
 
 ### ✨ Prompt Improver
-- Turn rough ideas into high-quality AI prompts
-- Improve clarity, structure, and output quality
+- Transform rough ideas into high-quality AI prompts  
+- Improve clarity, structure, and output quality  
 
 ### 🧪 Test Case Generator
-- Generate normal, edge, and failure test cases
-- Catch bugs before they happen
+- Generate normal, edge, and failure test cases  
+- Catch bugs before they happen  
 
 ### 📚 Dev Cheat Sheet
-- Quick reference for terminal, Git, and AI patterns
-- Designed for fast problem-solving
+- Quick reference for terminal commands and workflows  
+- Common Git, Streamlit, and debugging patterns  
 
+---
+
+### 🚀 Prompt Workflow (NEW)
+
+Turn ideas into real, buildable outputs:
+
+#### ✨ Improve Prompt
+- Converts rough ideas into clean, structured prompts  
+
+#### 🏗 Make Production Ready
+- Generates:
+  - System design  
+  - Architecture  
+  - Tech stack  
+  - Step-by-step build plan  
+
+#### 💻 Generate Starter Code
+- Produces clean, usable starter code  
+- Adapts to:
+  - Streamlit apps  
+  - APIs (FastAPI)  
+  - General Python tools  
 ---
 
 ## 🚀 Prompt Workflow (New)
