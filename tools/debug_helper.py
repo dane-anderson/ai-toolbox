@@ -9,15 +9,13 @@ def run(client):
     st.markdown("""
 <div style="
 background-color: #0f172a;
-padding: 15px 20px;
-border-radius: 12px 12px 0 0;
+padding: 20px;
+border-radius: 12px;
 border: 1px solid #1e293b;
-border-bottom: none;
+margin-bottom: 20px;
 color: #eee;
-font-weight: 600;
 ">
-Debug Input
-</div>
+<h4 style="margin-bottom:15px;">Debug Input</h4>
 """, unsafe_allow_html=True)
 
     user_input = st.text_area(
@@ -25,16 +23,7 @@ Debug Input
         label_visibility="collapsed"
     )
 
-    st.markdown("""
-<div style="
-height: 10px;
-border: 1px solid #1e293b;
-border-top: none;
-border-radius: 0 0 12px 12px;
-margin-top: -10px;
-margin-bottom: 20px;
-"></div>
-""", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
     if st.button("Analyze", use_container_width=True):
         if not user_input:
@@ -65,7 +54,14 @@ Be clear and beginner-friendly.
 
             st.markdown(
                 f"""
-<div style="background-color: #111; padding: 20px; border-radius: 10px; border: 1px solid #333; color: #eee; font-size: 15px;">
+<div style="
+background-color: #111;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid #333;
+color: #eee;
+font-size: 15px;
+">
 {result_text}
 </div>
 """,
