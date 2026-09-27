@@ -89,13 +89,6 @@ Turn ideas into real, buildable outputs:
   - General Python tools  
 ---
 
-## 🚀 Prompt Workflow (New)
-
-- **Improve Prompt** → Refine ideas into strong AI prompts  
-- **Make Production Ready** → (coming next) system design + architecture  
-- **Generate Starter Code** → (coming next) implementation scaffold  
----
-
 ## 🛠 Tech Stack
 
 - Python  
@@ -144,6 +137,8 @@ git clone https://github.com/dane-anderson/ai-toolbox.git
 cd ai-toolbox
 pip install -r requirements.txt
 streamlit run app.py
+```
+
 ---
 
 ## 💡 Vision
@@ -151,4 +146,3 @@ streamlit run app.py
 This project represents the foundation of an AI-powered developer productivity platform.
 
 The goal is to transform everyday development workflows using AI — making debugging, learning, and prompt engineering faster and more intuitive.
-export OPENAI_API_KEY=your_key_here
